@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
 
         Pessoa p1 = new Pessoa();
-        // testes
 
         p1.setNome("Talles Marcelo");
         p1.setCpf("xxx.xxx.xxx-xx");
@@ -37,5 +36,7 @@ public class Main {
 
         // Temos que usar o setter dentro da classe abstrata -> Fica ruim(Opniao minha)
         Humano humanoHeranca = new Humano("Talles", "12", "Masculino");
+
+        // pacote
     }
 }
